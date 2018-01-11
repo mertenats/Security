@@ -1,5 +1,11 @@
 # Wi-Fi Probe Request Scanner
-This script scans and logs all the Wi-Fi Probe Requests emitted by any Wi-Fi devices in the neighbourhood. 
+This script scans and logs all the Wi-Fi Probe Requests emitted by any Wi-Fi devices in the neighbourhood.
+
+Data collected :
+ - Wi-Fi MAC address
+ - Manufacturer of the Wi-Fi adapter
+ - SSID of your Wi-Fi access point
+ - Signal strength
 
 ## Requirements
 Several packages are required to be installed in order to execute the Wi-Fi Probe Request Scanner.
