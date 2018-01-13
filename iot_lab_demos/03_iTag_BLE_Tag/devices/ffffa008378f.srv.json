@@ -1,0 +1,102 @@
+[
+    {
+        "uuid": "1800",
+        "name": "Generic Access",
+        "type": "org.bluetooth.service.generic_access",
+        "startHandle": 1,
+        "endHandle": 5,
+        "characteristics": [
+            {
+                "uuid": "2a00",
+                "name": "Device Name",
+                "properties": [
+                    "read",
+                    "notify"
+                ],
+                "value": "69544147202020202020202020202020",
+                "descriptors": [],
+                "startHandle": 2,
+                "valueHandle": 3,
+                "asciiValue": "iTAG            "
+            },
+            {
+                "uuid": "2a01",
+                "name": "Appearance",
+                "properties": [
+                    "read"
+                ],
+                "value": "0000",
+                "descriptors": [],
+                "startHandle": 4,
+                "valueHandle": 5,
+                "asciiValue": "  "
+            }
+        ]
+    },
+    {
+        "uuid": "180f",
+        "name": "Battery Service",
+        "type": "org.bluetooth.service.battery_service",
+        "startHandle": 6,
+        "endHandle": 8,
+        "characteristics": [
+            {
+                "uuid": "2a19",
+                "name": "Battery Level",
+                "properties": [
+                    "read",
+                    "notify"
+                ],
+                "value": "63",
+                "descriptors": [],
+                "startHandle": 7,
+                "valueHandle": 8,
+                "asciiValue": "c"
+            }
+        ]
+    },
+    {
+        "uuid": "1802",
+        "name": "Immediate Alert",
+        "type": "org.bluetooth.service.immediate_alert",
+        "startHandle": 9,
+        "endHandle": 11,
+        "characteristics": [
+            {
+                "uuid": "2a06",
+                "name": "Alert Level",
+                "properties": [
+                    "writeWithoutResponse",
+                    "write",
+                    "notify"
+                ],
+                "value": "",
+                "descriptors": [],
+                "startHandle": 10,
+                "valueHandle": 11
+            }
+        ]
+    },
+    {
+        "uuid": "ffe0",
+        "name": null,
+        "type": null,
+        "startHandle": 12,
+        "endHandle": 14,
+        "characteristics": [
+            {
+                "uuid": "ffe1",
+                "name": null,
+                "properties": [
+                    "read",
+                    "notify"
+                ],
+                "value": "01",
+                "descriptors": [],
+                "startHandle": 13,
+                "valueHandle": 14,
+                "asciiValue": " "
+            }
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+{
+    "id": "ffffa008378f",
+    "eir": "020105020a000319c1030302e0ff",
+    "scanResponse": "110969544147202020202020202020202020",
+    "decodedNonEditable": {
+        "localName": "iTAG            ",
+        "manufacturerDataHex": null,
+        "manufacturerDataAscii": null,
+        "serviceUuids": [
+            "ffe0"
+        ]
+    }
+}
