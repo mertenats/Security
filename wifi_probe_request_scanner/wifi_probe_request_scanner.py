@@ -4,6 +4,17 @@
 
     Wi-Fi Probe Request Scanner
 
+    Logs :
+        - Timestamp
+        - MAC Address
+        - Manufacturer (optional)
+        - SSID (optional)
+        - Signal Strength
+
+    Requirements :
+        - scapy:    https://github.com/secdev/scapy
+        - netaddr:  https://github.com/drkjam/netaddr
+
 """
 
 from scapy.all import *
@@ -48,6 +59,10 @@ def on_wifi_probe_request_calllback(packet):
             data.append('')
         # stores the SSID
         data.append(ssid)
+        # computes and stores the Signal Strength
+        #signal_strength = -(256-ord(packet.notdecoded[-4:-3]))
+        signal_strength = -(256-ord(packet.notdecoded[-2:-1]))
+        data.append(str(signal_strength))
         logging.info(LOGS_DELIMITER.join(data))
 
 def main():
