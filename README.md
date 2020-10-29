@@ -3,7 +3,6 @@ PoC, code snippets, tools, etc.
 
 ## Wi-Fi
 ### PoC
-- 
 | Name        | Description |
 | ----------- | ----------- |
 | [Wi-Fi scanner](wifi_probe_request_scanner/) | Wi-Fi Probe Request scanner |
@@ -18,5 +17,7 @@ PoC, code snippets, tools, etc.
 
 
 ### Training
+| Name        | Description |
+| ----------- | ----------- |
 | [BLE CTF](https://github.com/hackgnar/ble_ctf) | BLE CTF on an ESP32 |
 | [BLEMystique](https://github.com/pentesteracademy/blemystique) | An ESP32 based custom BLE target (bulb, lock, ...) |
